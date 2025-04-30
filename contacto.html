@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto | Carolina Cook</title>
+  </head>
+  <body>
+    <header id="header">
+      <h2>PORTFOLIO</h2>
+      <nav>
+        <a href="./index.html" class="btnNav">Home</a>
+        <a href="./sobremi.html" class="btnNav">Sobre mí</a>
+        <a href="./habilidades.html" class="btnNav">Habilidades</a>
+        <a href="./proyectos.html" class="btnNav">Proyectos</a>
+        <a href="./contacto.html" class="btnNav">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <h1 class="titulo-contacto">Contacto</h1>
+        <form class="form- contacto">
+          <p class="descripcion-contacto">
+            Completá el siguiente formulario y me pondré en contacto lo antes
+            posible.
+          </p>
+
+          <div class="input-group">
+            <input
+              class="contact-input"
+              type="text"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <input
+              class="contact-input"
+              type="text"
+              name="subject"
+              placeholder="Asunto"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <textarea
+              class="contact-textarea"
+              name="message"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+          </div>
+          <div class="input-group">
+            <button class="btn-contacto" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <div class="contenedor-wpp">
+      <a
+        href="https://wa.me/5491170098702?text=Hola%20Carolina%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20contactarte."
+        class="whatsapp-fijo"
+        target="_blank"
+        title="¡Escribime por WhatsApp!"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+          alt="WhatsApp"
+          class="whatsapp-icon"
+        />
+      </a>
+    </div>
+    <footer>
+      <div class="social-buttons">
+        <a
+          href="https://www.linkedin.com/in/carolinacook"
+          target="_blank"
+          class="social-btn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/carocook"
+          target="_blank"
+          class="social-btn"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p>Copyright &copy; | Coded with love by Carolina Cook</p>
+    </footer>
+  </body>
+</html>
